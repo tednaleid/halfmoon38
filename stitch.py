@@ -14,7 +14,7 @@ import os
 
 from PIL import Image
 
-result = Image.new("LA", (3584, 4605))
+result = Image.new("LA", (4605, 3584))
 
 # all images are 256x256 except for the last row which is only 253 wide
 for x_index in range(18):
